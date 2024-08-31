@@ -3,3 +3,11 @@
 let lightBulbStatus = "On";
 
 //Start coding here
+switch (lightBulbStatus){
+    case "Broken": console.log("Light bulb is Broken"); break;
+    case "On": console.log("Light bulb is On"); break;
+    case "Off": console.log("Light bulb is off"); break;
+    default : console.log("Please choose the correct input (On/Off/Broken)");
+}
+
+
